@@ -1,53 +1,88 @@
-<!doctype html>
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-  <meta charset="utf-8">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>EchoRuin</title>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Raleway:wght@400;700&display=swap" rel="stylesheet">
+
   <style>
     body {
-      background-color: #000;
-      color: #d8b4fe;
-      font-family: Helvetica, Arial, sans-serif;
-      text-align: center;
       margin: 0;
       padding: 0;
+      background: #000000; /* solid black background */
+      color: #e0e0e0;
+      font-family: 'Orbitron', 'Raleway', sans-serif;
+      text-align: center;
+      min-height: 100vh;
     }
-    img {
+
+    header img {
       max-width: 100%;
       height: auto;
       margin-top: 20px;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
     }
-    nav {
-      margin: 20px;
+
+    .lore {
+      margin: 40px auto;
+      max-width: 700px;
+      font-size: 1.2em;
+      color: #cfcfcf;
+      font-family: 'Raleway', sans-serif;
+      line-height: 1.6em;
+      text-shadow: 0 0 8px #7b2cbf;
     }
-    nav a {
-      color: #a855f7;
-      margin: 0 15px;
+
+    h2 {
+      margin-top: 40px;
+      font-size: 2em;
+      color: #e0e0e0;
+      text-shadow: 0 0 8px #9d4edd, 0 0 16px #7b2cbf; /* neon purple glow */
+    }
+
+    a {
+      color: #9d4edd;
       text-decoration: none;
       font-weight: bold;
+      text-shadow: 0 0 6px #9d4edd, 0 0 12px #7b2cbf;
     }
-    nav a:hover {
-      text-shadow: 0 0 10px #a855f7;
+
+    a:hover {
+      color: #e0e0e0;
+      text-shadow: 0 0 10px #9d4edd, 0 0 20px #7b2cbf;
     }
+
     footer {
-      margin-top: 30px;
+      margin-top: 40px;
       font-size: 0.9em;
       color: #666;
     }
   </style>
 </head>
 <body>
-  <nav>
-    <a href="index.html">Home</a>
-    <a href="game.html">The Game</a>
-    <a href="mechanics.html">Mechanics</a>
-    <a href="minigames.html">Mini Games</a>
-    <a href="gallery.html">Gallery</a>
-    <a href="about.html">About</a>
-  </nav>
-  <img src="echoruin.jpg" alt="EchoRuin Poster">
-  <p>In the cracks of the old world, strange lights move. No one knows if they are echoes of machines, or something older still. Step carefully—every ruin hums with an unknown phenomenon.</p>
-  <p>Follow us on Instagram: <a href="https://instagram.com/echoruin_official" target="_blank">@echoruin_official</a></p>
-  <footer>© 2025 EchoRuin</footer>
+  <header>
+    <img src="echoruin.jpg" alt="EchoRuin Poster">
+  </header>
+
+  <section class="lore">
+    <p><em>“The world did not break cleanly.<br>
+    It splintered, shards of light and shadow folding into each other.<br>
+    What you see now is neither ruin nor rebirth,<br>
+    but something between — a fracture without end.”</em></p>
+  </section>
+
+  <section>
+    <h2>Explore</h2>
+    <p>Follow us on <a href="https://www.instagram.com/echoruin_official" target="_blank">@echoruin_official</a></p>
+  </section>
+
+  <footer>
+    <p>© 2025 EchoRuin</p>
+  </footer>
 </body>
 </html>
